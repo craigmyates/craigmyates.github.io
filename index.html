@@ -1,163 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style type="text/css">
-html {
-  font-family: sans-serif;
-  max-width: 900px;
-  padding-left: 2%;
-  padding-right: 3%;
-  margin: 0 auto;
-  background: #F7F5F3;
-  color: #505050;
-  padding-bottom: 24pt;
-}
-
-h1 {
-	margin-bottom: 5pt;
-}
-
-h4 {
-  margin-bottom: 0;
-  margin-top: 8pt;
-}
-
-p {
-  margin-top: 2pt;
-  margin-bottom: 0;
-}
-
-ul {
-	margin: 0;
-}
-
-a {
-  color: #000000;
-  font-size: 9pt;
-  font-weight: bold;
-}
-
-@media (max-width: 500px) {
-}
-</style>
-<title>Craig Yates</title>
+	<meta charset="utf-8"/>
+	<title>Craig Yates</title>
+	<link rel="stylesheet" href="style.css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-
 <h1>Craig Yates</h1>
-<p><a href='mai&#108;&#116;o&#58;crai&#103;&#46;m&#46;&#37;7&#57;%&#54;&#49;t%&#54;&#53;&#37;73&#64;&#37;6&#55;mail&#46;co%6D'>&#99;rai&#103;&#46;m&#46;y&#97;&#116;e&#115;&#64;&#103;mail&#46;co&#109;</a></p>
 
-<h3>About</h3>
-<p>Freelance programmer specialising in developing games on Unity engine.</p>
+<p><a href='mai&#108;&#116;o&#58;crai&#103;&#46;m&#46;&#37;7&#57;%&#54;&#49;t%&#54;&#53;&#37;73&#64;&#37;6&#55;mail&#46;co%6D'>E-mail</a> | <a href="https://www.mobygames.com/person/593298/craig-yates/">MobyGames profile</a></p>
+
+<h2 id="fundamentals">Testimonials</h2>
+<blockquote>"I worked with Craig for almost four years and he’s an absolute powerhouse of a programmer. If something ran at 1 FPS, Craig was the one who made it hit 60. Smart, reliable, great with artists, and genuinely fun to work with. I’d rehire him without hesitation."
+<cite>Bulut Karakaya, Lead Programmer at ustwo games</cite></blockquote>
+<blockquote>
+"Working with Craig was a force multiplier for our team. He brought strong performance engineering discipline and helped us set up a robust core ECS system that unlocked broader improvements across the project. He’s highly effective to work with—clear communicator, fast iteration cycles, and uncompromising on quality."
+<cite>Michiel Huygen, Lead Programmer at The Artistocrats</cite>
+</blockquote>
+<blockquote>
+"One of the best code deleters I've ever worked with."
+<cite>Manesh Mistry, Head of Engineering at ustwo games</cite>
+</blockquote>
+
+<h2 id="fundamentals">Projects</h2>
+<h3>Monument Valley 3</h3>
+<figure>
+	<img src="img/mv3.webp" />
+	<footer>2024 | iOS, Android, PC, Switch | Unity | ustwo games</footer>
+</figure>
+
+<h3>Desta: The Memories Between</h3>
+<figure>
+	<img src="img/desta.webp" />
+	<footer>2022 | iOS, Android, PC, Switch | Unity | ustwo games</footer>
+</figure>
+
+<h3>Starship Troopers: Terran Command</h3>
+<figure>
+	<img src="img/starshiptroopers.webp" />
+	<footer>2022 | PC | Unity | Artistocrats, Slitherine</footer>
+</figure>
 <ul>
-<li>Interested in low-level performance optimisation; want to continue learning in this area.</li>
-<li>Frequently collaborate with designers to build useful tools.</li>
-<li>Enjoy assisting others and sharing knowledge.</li>
-<li>Generalist with skills in 3D art and music.</li>
-<li>Currently based in Royal Leamington Spa, UK.</li>
+	<li>Rewrote and optimised numerous gameplay systems.</li>
+	<li>Implemented grid-based pathfinding with A* and Jump Point Search.</li>
+	<li>Optimised third-party decal projector plugin.</li>
 </ul>
 
-<br /><hr /><h3>Projects</h3>
-
-<h4>Unannounced Project</h4>
-<p><em><small>2022 (Upcoming) | iOS, Android | Unity | ustwo games</small></em><br />
-</p>
-
-<h4>Starship Troopers - Terran Command</h4>
-<p><em><small>2021 (Upcoming) | PC | Unity | Artistocrats, Slitherine</small></em><br />
-Scope changes greatly increased the performance requirements on this real-time strategy game, necessitating significant optimisation work. I primarily focused on rewriting and optimising bottleneck systems, using Unity's multithreaded job system and Burst compiler.</p>
+<h3>Table Manners</h3>
+<figure>
+	<img src="img/tablemanners.webp" />
+	<footer>2020 | PC | Unity | Echo Chamber Games, Curve Digital</footer>
+</figure>
 <ul>
-<li>Parallelised target selection, projectile collision, line-of-fire, fog of war and pathfinding systems.</li>
-<li>Implemented Jump Point Search optimisation for units with uniform-cost pathfinding.</li>
-<li>Optimised third-party decal projector plugin.</li>
+	<li>Wrote environmental system to simulate heat transfer, fire propagation and other object properties.</li>
+	<li>Optimised integration of fluid simulation plugin.</li>
 </ul>
 
-<h4>Table Manners</h4>
-<p><em><small>2020 | PC | Unity | Echo Chamber Games, Curve Digital</small></em><br />
-</p>
+<h3>Manifold Garden</h3>
+<figure>
+	<img src="img/manifoldgarden.webp" />
+	<footer>2019 | PC, iOS, Switch | Unity | William Chyr Studio</footer>
+</figure>
 <ul>
-<li>Wrote environmental system to simulate heat transfer, fire propagation and other object properties.</li>
-<li>Optimised integration of fluid simulation plugin.</li>
-<li>Bug fixing and optimisation.</li>
+	<li>Wrote occlusion culling system for recursive portal rendering.</li>
+	<li>Implemented custom instanced LOD system built on top of BatchRendererGroup API.</li>
+	<li>Improved infrastructure for automated performance testing.</li>
 </ul>
 
-<h4>Manifold Garden</h4>
-<p><em><small>2019 | PC, iOS | Unity | William Chyr Studio</small></em><br />
-Joined project 2 months before release to assist with bug-fixing and polishing, subsequently took on more performance optimization tasks to support later console releases.</p>
+<h3>Warhammer Age of Sigmar: Realm War</h3>
+<figure>
+	<img src="img/realmwar.webp" />
+	<footer>2018 | iOS, Android | Unity, GameSparks | Pixel Toys</footer>
+</figure>
 <ul>
-<li>Wrote occlusion culling system for recursive portal rendering.</li>
-<li>Implemented custom instanced LOD system built on top of BatchRendererGroup API.</li>
-<li>Improved infrastructure for automated performance testing.</li>
+	<li>Overhauled tutorial system.</li>
+	<li>Implemented matchmaking system.</li>
 </ul>
 
-<h4>Warhammer Age of Sigmar: Realm War</h4>
-<p><em><small>2018 | iOS, Android | Unity, GameSparks | Pixel Toys</small></em><br />
-</p>
+<h3>Kingdom Conquest - Dark Empire</h3>
+<figure>
+	<img src="img/kingdomconquest.webp" />
+	<footer>Cancelled | iOS, Android | Node.js, MongoDB, Unity | SEGA Hardlight</footer>
+</figure>
 <ul>
-<li>Overhauled tutorial system.</li>
-<li>Implemented matchmaking system.</li>
-<li>Bug fixing and optimisation.</li>
+	<li>Built a data-binding system with a node graph editor, enabling artists to implement UI logic independently.</li>
+	<li>Responsible for client-side and server-side implementation of multiple gameplay systems.</li>
 </ul>
 
-<h4>Sonic Forces</h4>
-<p><em><small>2017 | PC | Hedgehog Engine | SEGA Hardlight</small></em><br />
-Briefly assisted on the PC port of this console title.</p>
+<h3>Sonic Dash 2: Sonic Boom</h3>
+<figure>
+	<img src="img/sonicdash2.webp" />
+	<footer>2015 | iOS, Android | Unity | SEGA Hardlight</footer>
+</figure>
 <ul>
-<li>Added keyboard & mouse input support to the menu systems.</li>
+	<li>UI programming.</li>
+	<li>Contributed to localisation and tutorial systems.</li>
 </ul>
 
-<h4>Unannounced VR Project</h4>
-<p><em><small>Cancelled | Desktop VR | Cathode | SEGA Hardlight</small></em><br />
-
-This was a project for desktop VR platforms using Creative Assembly’s in-house game engine. Most documentation was unavailable to us, so deciphering the usage of various features and tools meant spending a lot of time reading source code.
-</p>
+<h3>Crazy Taxi: City Rush</h3>
+<figure>
+	<img src="img/crazytaxi.webp" />
+	<footer>2014 | iOS, Android | Unity | SEGA Hardlight</footer>
+</figure>
 <ul>
-<li>Responsible for level scripting.</li>
-<li>Implemented comfort features to alleviate motion sickness.</li>
+	<li>Implemented mission scripting system.</li>
+	<li>Took ownership of tutorial and UI systems.</li>
+	<li>Worked on plugin integrations for Android platform.</li>
 </ul>
 
-<h4>Kingdom Conquest - Dark Empire</h4>
-<p><em><small>Cancelled | iOS, Android | Node.js, MongoDB, Unity | SEGA Hardlight</small></em><br />
-A game with a significant server-based component, workload was divided by gameplay feature so my time was split between developing in Node.js and Unity.
-</p>
-<ul>
-<li>Built a visual node graph data-binding system enabling artists to implement UI logic across the game's extensive menu systems without programmer assistance.</li>
-<li>Implemented multiple gameplay systems.</li>
-</ul>
-
-<h4>Sonic Dash 2: Sonic Boom</h4>
-<p><em><small>2015 | iOS, Android | Unity | SEGA Hardlight</small></em><br />
-</p>
-<ul>
-<li>Built menu system.</li>
-<li>UI programming.</li>
-<li>Contributed to localisation and tutorial systems.</li>
-</ul>
-
-<h4>Crazy Taxi: City Rush</h4>
-<p><em><small>2014 | iOS, Android | Unity | SEGA Hardlight</small></em><br />
-</p>
-<ul>
-<li>Implemented mission scripting system.</li>
-<li>Took ownership of tutorial and UI systems.</li>
-<li>Worked on plugin integrations for Android platform.</li>
-</ul>
-
-<br /><hr /><h3>Education</h3>
-
-<h4>Warwick University</h4>
-<p><em><small>2009 - 2013</small></em><br />
-Computer Science MEng (2:1)<br />
-<small>Band Society President 2012/13<br />
-Band Society Webmaster 2011/12</small></p>
-
-<h4>Northampton College</h4>
-<p><em><small>2007 - 2009</small></em><br />
-A Level Mathematics (A)<br />
-A Level Physics (A)<br />
-A Level Computing (A)<br />
-AS Further Mathematics (A)</p>
 </body>
-
 </html>

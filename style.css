@@ -1,0 +1,54 @@
+html {
+	font-size: 1.25rem;
+}
+
+body {
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	max-width: 900px;
+	padding-left: 2%;
+	padding-right: 3%;
+	margin: 0 auto;
+	background-color: #fffff8;
+	color: #111;
+	padding-bottom: 24pt;
+}
+
+p {
+	margin-bottom: 0.5rem;
+}
+
+img {
+	border: solid #151515 1px;
+}
+
+a {
+	color: #111;
+}
+
+figure > footer {
+	font-size: 0.8rem;
+}
+
+blockquote {
+	font-style: italic;
+	font-size: 1rem;
+	margin-bottom: 1.75rem;
+}
+
+blockquote > cite {
+	display: block;
+	font-style: normal;
+	text-align: right;
+	margin-top: 0.25rem;
+}
+
+@media (prefers-color-scheme: dark) {
+	body,a {
+		background-color: #222;
+		color: #ddd;
+	}
+	
+	img {
+		border: solid #ddd 1px;
+	}
+}
